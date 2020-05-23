@@ -5,7 +5,7 @@ function myfunc() {
 result="$( myfunc $((RANDOM%2)) )"
 if [ $result -eq 1 ]
 then
-	echo "success"
+	echo "result : success"
 else
-	echo "failure"
+	echo "result : failure"
 fi
